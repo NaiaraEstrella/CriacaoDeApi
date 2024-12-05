@@ -33,7 +33,7 @@ const alterarProduto = (id, dadosAtualizados) => {
         Object.assign(produto, dadosAtualizados);
         return produto;
     }
-    return null;
+    
 };
 
 const deletarProduto = (id) => {
